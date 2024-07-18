@@ -1,0 +1,44 @@
+main {
+    color: black;
+}
+
+.imgHolder {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 300px; /* Set the width of the image */
+    height: 200px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    margin-bottom: 40px;
+}
+
+.imgHolder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or contain, based on your preference */
+
+}
+
+.centerImg {
+    display: block;
+    margin: 0 auto; /* Shortcut for setting top and bottom margin to 0 and left and right margin to auto */
+    max-width: 100%;
+}
+
+p,
+h2 {
+    margin-top: 20px;
+}
+
+@media (max-width: 1075px) {
+    .imgHolder {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 582px) {
+    .imgHolder {
+        margin-bottom: 120px;
+    }
+}

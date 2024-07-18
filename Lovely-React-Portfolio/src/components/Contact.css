@@ -1,0 +1,16 @@
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
