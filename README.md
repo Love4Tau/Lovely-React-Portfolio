@@ -20,7 +20,7 @@
   3) npm start
 
   ## Usage
-  ![Alt Text](./public/assets/images/Website.pngk)
+  ![Alt Text](./public/assets/images/Website.png)
   [Deployed Website](https://main--gentle-cocada-dc351f.netlify.app/)
 
   ## Credits
