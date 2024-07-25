@@ -1,6 +1,5 @@
 import REACT, { useState } from "react";
 import "./Contact.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
     const [name, setName] = useState("");
